@@ -23,11 +23,16 @@ USER-AGENT,Prime%20Video*
 USER-AGENT,FOXPlus*
 DOMAIN-SUFFIX,foxplus.com
 DOMAIN-SUFFIX,theplatform.com
+DOMAIN-SUFFIX,staticasiafox.akamaized.net
+DOMAIN-SUFFIX,dashasiafox.akamaized.net
 # > (US)
-# > HBO Now
+# > HBO NOW & HBO GO
 USER-AGENT,HBO%20NOW*
 DOMAIN-SUFFIX,hbo.com
 DOMAIN-SUFFIX,hbogo.com
+DOMAIN-SUFFIX,hboasia.com
+DOMAIN-SUFFIX,hbogo.com
+DOMAIN-SUFFIX,hbogoasia.hk
 # > Hulu
 DOMAIN-SUFFIX,hulu.com
 DOMAIN-SUFFIX,huluim.com
@@ -51,15 +56,20 @@ DOMAIN,content.jwplatform.com
 DOMAIN,videos-f.jwpsrv.com
 # > ViuTV
 USER-AGENT,ViuTV*
+DOMAIN-SUFFIX,viu.tv
 DOMAIN,api.viu.now.com
 # > (JP)
 # > Hulu(フールー)
 DOMAIN-SUFFIX,happyon.jp
+DOMAIN-SUFFIX,hulu.jp
 # > AbemaTV
 USER-AGENT,AbemaTV*
 DOMAIN-SUFFIX,abema.io
 DOMAIN-SUFFIX,ameba.jp
 DOMAIN-SUFFIX,hayabusa.io
+DOMAIN,abematv.akamaized.net
+DOMAIN,ds-linear-abematv.akamaized.net
+DOMAIN,ds-vod-abematv.akamaized.net
 DOMAIN,linear-abematv.akamaized.net
 # > (UK)
 # > BBC iPlayer
@@ -74,3 +84,21 @@ USER-AGENT,Anime*
 DOMAIN-SUFFIX,bahamut.com.tw
 DOMAIN-SUFFIX,gamer.com.tw
 DOMAIN-SUFFIX,hinet.net
+
+# (Music)
+# > Spotify
+USER-AGENT,Spotify*
+DOMAIN-SUFFIX,pscdn.co
+DOMAIN-SUFFIX,scdn.co
+DOMAIN-SUFFIX,spotify.com
+DOMAIN-SUFFIX,spoti.fi
+# > JOOX
+USER-AGENT,WeMusic*
+USER-AGENT,JOOX*
+DOMAIN-SUFFIX,joox.com
+# > Pandora
+DOMAIN-SUFFIX,pandora.com
+# > KKBOX(HK|MO|TW|JP|SG|MY)
+DOMAIN-SUFFIX,kkbox.com
+DOMAIN-SUFFIX,kkbox.com.tw
+DOMAIN-SUFFIX,kfs.io
